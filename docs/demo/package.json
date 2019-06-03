@@ -1,14 +1,14 @@
 {
-  "name": "npm-menu-example",
+  "name": "npm-run-menu-example",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm-menu"
+    "start": "npm-run-menu"
   },
   "author": "templated-ui",
   "license": "MIT",
   "devDependencies": {
     "@angular/cli": "^8.0.0-rc.2",
     "firebase-tools": "^6.7.2",
-    "npm-menu": "^1.6.3"
+    "npm-run-menu": "^1.6.3"
   }
 }

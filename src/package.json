@@ -1,8 +1,8 @@
 {
-  "name": "npm-menu",
+  "name": "npm-run-menu",
   "version": "1.9.1",
   "description": "Enhance your package.json scripts with features like: menus, functions, arrays, concurrency and many more.",
-  "main": "npm-menu.js",
+  "main": "npm-run-menu.js",
   "keywords": [
     "npm",
     "script",
@@ -17,11 +17,11 @@
     "menu"
   ],
   "bin": {
-    "npm-menu": "bin/npm-menu.js"
+    "npm-run-menu": "bin/npm-run-menu.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/templated-ui/npm-menu.git"
+    "url": "git+https://github.com/templated-ui/npm-run-menu.git"
   },
   "author": "templated-ui",
   "license": "MIT",

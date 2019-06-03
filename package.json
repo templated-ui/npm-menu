@@ -1,16 +1,16 @@
 {
-  "name": "npm-menu-source",
+  "name": "npm-run-menu-source",
   "version": "0.0.0",
   "description": "Script launcher repo root package.json, used mainly to execute build scripts. This package is not published to npm.",
   "main": "",
   "scripts": {
-    "start":"ts-node src/npm-menu.ts",
-    "build": "rimraf dist && mkdir dist && tsc --build  && copyfiles  -f ./src/*.json  dist && copyfiles  -f ./src/*.md  dist &&  copyfiles  -a -f ./src/LICENSE  dist && copyfiles  -f ./src/bin/npm-menu.js  dist/bin"
+    "start":"ts-node src/npm-run-menu.ts",
+    "build": "rimraf dist && mkdir dist && tsc --build  && copyfiles  -f ./src/*.json  dist && copyfiles  -f ./src/*.md  dist &&  copyfiles  -a -f ./src/LICENSE  dist && copyfiles  -f ./src/bin/npm-run-menu.js  dist/bin"
      
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:templated-ui/npm-menu.git"
+    "url": "git@github.com:templated-ui/npm-run-menu.git"
   },
   "author": "templated-ui",
   "license": "MIT",
@@ -32,7 +32,6 @@
     "cp": "^0.2.0",
     "cpy-cli": "^2.0.0",
     "rimraf": "^2.6.3",
-    "npm-menu": "^1.9.1",
     "ts-node": "^8.2.0",
     "tslint": "^5.16.0",
     "typescript": "^3.5.1"
