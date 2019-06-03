@@ -1,12 +1,12 @@
-[![npm version](https://badge.fury.io/js/script-launcher.svg)](https://www.npmjs.com/package/script-launcher)
-[![GitHub last commit](https://img.shields.io/github/last-commit/chanzo/script-launcher.svg?maxAge=2400)](#)
-[![downloads-image](https://img.shields.io/npm/dm/script-launcher.svg)](https://www.npmjs.com/package/script-launcher)
-[![Dependency Status](https://david-dm.org/chanzo/script-launcher.svg)](https://david-dm.org/chanzo/script-launcher) 
-[![devDependency Status](https://david-dm.org/chanzo/script-launcher/dev-status.svg)](https://david-dm.org/chanzo/script-launcher?type=dev) 
-[![License](https://img.shields.io/npm/l/script-launcher.svg)](/LICENSE) 
+[![npm version](https://badge.fury.io/js/npm-menu.svg)](https://www.npmjs.com/package/npm-menu)
+[![GitHub last commit](https://img.shields.io/github/last-commit/templated-ui/npm-menu.svg?maxAge=2400)](#)
+[![downloads-image](https://img.shields.io/npm/dm/npm-menu.svg)](https://www.npmjs.com/package/npm-menu)
+[![Dependency Status](https://david-dm.org/templated-ui/npm-menu.svg)](https://david-dm.org/templated-ui/npm-menu) 
+[![devDependency Status](https://david-dm.org/templated-ui/npm-menu/dev-status.svg)](https://david-dm.org/templated-ui/npm-menu?type=dev) 
+[![License](https://img.shields.io/npm/l/npm-menu.svg)](/LICENSE) 
 
-[![GitHub forks](https://img.shields.io/github/forks/chanzo/script-launcher.svg?style=social&label=Fork)](https://github.com/chanzo/script-launcher/fork)
-[![GitHub stars](https://img.shields.io/github/stars/chanzo/script-launcher.svg?style=social&label=Star)](https://github.com/chanzo/script-launcher) 
+[![GitHub forks](https://img.shields.io/github/forks/templated-ui/npm-menu.svg?style=social&label=Fork)](https://github.com/templated-ui/npm-menu/fork)
+[![GitHub stars](https://img.shields.io/github/stars/templated-ui/npm-menu.svg?style=social&label=Star)](https://github.com/templated-ui/npm-menu) 
 
 # Script Launcher
 
@@ -18,9 +18,9 @@ Use the examples from the [table of contents](#table-of-contents) to get familia
 
 ## Installation
 
-Install **script-launcher** as a development dependency in your project.
+Install **npm-menu** as a development dependency in your project.
 ``` bash
-npm install script-launcher --save-dev
+npm install npm-menu --save-dev
 ```
 
 Use **launch init** to create the starter **launcher-config.json** , **launcher-settings.json** and **launcher-menu.json** files.
@@ -115,7 +115,7 @@ In a traditional **package.json** you can only run scripts on a per line basis. 
 }
 ```
 
-With **script-launcher** you have the benefits of using variables, script references and many more features, so you can make the above example easier to maintain:
+With **npm-menu** you have the benefits of using variables, script references and many more features, so you can make the above example easier to maintain:
 ``` JSON
 // Example using Script Launcher //
 {
@@ -186,7 +186,7 @@ Run `npm start build-stuff` to use this example.
 {
   "scripts": {
     "build-stuff": [
-      "node_modules/script-launcher",
+      "node_modules/npm-menu",
       "dir"
     ]
   }
@@ -307,7 +307,7 @@ Run `npm start build-stuff` to use this example.
 {
   "scripts": {
     "build-stuff": [
-      "node_modules/script-launcher",
+      "node_modules/npm-menu",
       "echo All files: *",
       "echo Markdown files: **/*.md"
     ]

@@ -1,15 +1,15 @@
-[![npm version](https://badge.fury.io/js/script-launcher.svg)](https://www.npmjs.com/package/script-launcher)
-[![GitHub last commit](https://img.shields.io/github/last-commit/chanzo/script-launcher.svg?maxAge=2400)](#)
-[![downloads-image](https://img.shields.io/npm/dm/script-launcher.svg)](https://www.npmjs.com/package/script-launcher)
-[![Dependency Status](https://david-dm.org/chanzo/script-launcher.svg)](https://david-dm.org/chanzo/script-launcher) 
-[![devDependency Status](https://david-dm.org/chanzo/script-launcher/dev-status.svg)](https://david-dm.org/chanzo/script-launcher?type=dev) 
+[![npm version](https://badge.fury.io/js/npm-menu.svg)](https://www.npmjs.com/package/npm-menu)
+[![GitHub last commit](https://img.shields.io/github/last-commit/templated-ui/npm-menu.svg?maxAge=2400)](#)
+[![downloads-image](https://img.shields.io/npm/dm/npm-menu.svg)](https://www.npmjs.com/package/npm-menu)
+[![Dependency Status](https://david-dm.org/templated-ui/npm-menu.svg)](https://david-dm.org/templated-ui/npm-menu) 
+[![devDependency Status](https://david-dm.org/templated-ui/npm-menu/dev-status.svg)](https://david-dm.org/templated-ui/npm-menu?type=dev) 
 
-[![NPM](https://nodei.co/npm/script-launcher.png?compact=false)](https://www.npmjs.com/package/script-launcher)
+[![NPM](https://nodei.co/npm/npm-menu.png?compact=false)](https://www.npmjs.com/package/npm-menu)
 
-[![License](https://img.shields.io/npm/l/script-launcher.svg)](/LICENSE) 
+[![License](https://img.shields.io/npm/l/npm-menu.svg)](/LICENSE) 
 
-[![GitHub forks](https://img.shields.io/github/forks/chanzo/script-launcher.svg?style=social&label=Fork)](https://github.com/chanzo/script-launcher/fork)
-[![GitHub stars](https://img.shields.io/github/stars/chanzo/script-launcher.svg?style=social&label=Star)](https://github.com/chanzo/script-launcher) 
+[![GitHub forks](https://img.shields.io/github/forks/templated-ui/npm-menu.svg?style=social&label=Fork)](https://github.com/templated-ui/npm-menu/fork)
+[![GitHub stars](https://img.shields.io/github/stars/templated-ui/npm-menu.svg?style=social&label=Star)](https://github.com/templated-ui/npm-menu) 
 
 # ![Logo](docs/readme-logo.png) Script Launcher
 
@@ -17,12 +17,12 @@
 * [node](https://nodejs.org/en/) - JavaScript runtime
 * [nvm](https://github.com/creationix/nvm) - node version manager
 * [tsc](https://www.typescriptlang.org/) - TypeScript
-* [launch](https://www.npmjs.com/package/script-launcher) - Script Launcher
+* [launch](https://www.npmjs.com/package/npm-menu) - Script Launcher
 
 ### Basic setup
 ``` bash
-git clone git@github.com:chanzo/script-launcher.git
-cd script-launcher
+git clone git@github.com:templated-ui/npm-menu.git
+cd npm-menu
 
 npm install
 npm start

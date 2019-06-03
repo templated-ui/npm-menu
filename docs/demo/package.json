@@ -1,14 +1,14 @@
 {
-  "name": "script-launcher-example",
+  "name": "npm-menu-example",
   "version": "1.0.0",
   "scripts": {
-    "start": "launch"
+    "start": "npm-menu"
   },
-  "author": "Chanzo Wazi",
+  "author": "templated-ui",
   "license": "MIT",
   "devDependencies": {
     "@angular/cli": "^8.0.0-rc.2",
     "firebase-tools": "^6.7.2",
-    "script-launcher": "^1.6.3"
+    "npm-menu": "^1.6.3"
   }
 }

@@ -1,9 +1,9 @@
 {
   "files": [
-    "src/launch.ts"
+    "src/npm-menu.ts"
   ],
   "include": [
-    "src/launch.ts"
+    "src/npm-menu.ts"
   ],
   "compilerOptions": {
     "module": "commonjs",

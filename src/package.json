@@ -1,8 +1,8 @@
 {
-  "name": "script-launcher",
+  "name": "npm-menu",
   "version": "1.9.1",
   "description": "Enhance your package.json scripts with features like: menus, functions, arrays, concurrency and many more.",
-  "main": "launch.js",
+  "main": "npm-menu.js",
   "keywords": [
     "npm",
     "script",
@@ -17,13 +17,13 @@
     "menu"
   ],
   "bin": {
-    "launch": "bin/launch.js"
+    "npm-menu": "bin/npm-menu.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chanzo/script-launcher.git"
+    "url": "git+https://github.com/templated-ui/npm-menu.git"
   },
-  "author": "Chanzo Wazi",
+  "author": "templated-ui",
   "license": "MIT",
   "dependencies": {
     "cross-spawn": "^6.0.5",
