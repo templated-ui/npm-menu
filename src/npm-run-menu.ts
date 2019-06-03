@@ -41,4 +41,4 @@ async function main(): Promise<void> {
   cp.on('close', exitCode => process.exit(exitCode));
 }
 
-main();
+main().then(console.log,console.error);

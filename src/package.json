@@ -1,7 +1,7 @@
 {
   "name": "npm-run-menu",
-  "version": "1.0.0",
-  "description": "Enhance your package.json scripts with features like: menus, functions, arrays, concurrency and many more.",
+  "version": "1.0.2",
+  "description": "A menu for executing your npm scripts. Uses package.json in current directory.",
   "main": "npm-run-menu.js",
   "keywords": [
     "npm",
